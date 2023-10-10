@@ -1,0 +1,32 @@
+package com.security.jwt.JwtSecurity;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeResource {
+	
+	@Autowired
+	private AuthenticationManager authenticationManager;
+
+	@Autowired
+	private JwtUtil jwtTokenUtil;
+	
+	@Autowired
+	private MyUserDetailsService userDetailsService;
+	
+	@GetMapping("/")
+	public String home() {
+		return("<h1>Welcome</h1>");
+	}
+	@GetMapping("/hello")
+	public String user() {
+		return("<h1>Welcome User</h1>");
+	}
+	
+	
+	@RequestMapping("/authenticate",method=RequestMethod.POST)
+
+}

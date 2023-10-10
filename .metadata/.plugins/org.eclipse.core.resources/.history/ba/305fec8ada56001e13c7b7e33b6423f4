@@ -1,0 +1,15 @@
+server:
+    port: 9090
+spring:
+    application:
+        name: javainuse
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+         github:
+          clientId: aea829285fdb45d22782
+          clientSecret: ee6141d393cb0418ed047564e5aa001e2d2603e4
+        

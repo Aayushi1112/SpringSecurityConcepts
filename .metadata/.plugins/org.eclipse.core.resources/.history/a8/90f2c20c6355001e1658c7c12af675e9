@@ -1,0 +1,5 @@
+package com.security.jwt.JwtSecurity;
+
+public class AuthenticationResponse {
+
+}

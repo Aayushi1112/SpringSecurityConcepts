@@ -1,0 +1,5 @@
+package com.example.jdbcsecurity.JDBCSecurity;
+
+public class HomeResource {
+
+}

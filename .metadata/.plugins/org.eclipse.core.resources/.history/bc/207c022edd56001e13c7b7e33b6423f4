@@ -1,0 +1,3 @@
+server.port=8090
+spring.security.oauth2.client.registration.github.clientId=aea829285fdb45d22782
+spring.security.oauth2.client.registration.github.clientSecret=ed36240dea0f42ec9328e9ec2261333b58ec14a7
